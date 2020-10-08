@@ -1,0 +1,149 @@
+.parentDiv{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://resources.pulse.icc-cricket.com/ICC/photo/2018/10/03/056e1079-dcd4-4ba7-b977-d9bb3728cf6e/GettyImages-821147320.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.box h2 {
+    margin: 0px 0 -0.125rem;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.box p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 93%;
+    padding: 0.625rem 10px;
+    font-size: 1rem;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: grey;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label,
+.box .inputBox input:not([value=""]) ~ label {
+    top: -1.125rem;
+    left: 15px;
+    color: #1a73e8;
+    font-size: 0.75rem;
+    background-color: white;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box .inputBox input:focus {
+    outline: none;
+    /* border: 2px solid #1a73e8; */
+}
+
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #287ae6;
+    box-shadow: 0 1px 1px 0 rgba(66,133,244,0.45), 0 1px 3px 1px rgba(66,133,244,0.3);
+}
+
+.SigninBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: none;
+}
+
+.btn{
+    margin: 5px;
+    box-shadow: 0 2px 5px 0 #acacac;
+    outline: none;
+}
+
+.overlay__divider--with-text:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    top: 35%;
+    left: 0;
+    background-color: #979797;
+}
+.overlay__divider--with-text:before {
+    width: calc(50% - 2rem);
+}
+
+.overlay__divider:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    top: 35%;
+    right: 0;
+    background-color: #979797;
+}
+
+
+.overlay__divider--with-text:after {
+    width: calc(50% - 2rem);
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}

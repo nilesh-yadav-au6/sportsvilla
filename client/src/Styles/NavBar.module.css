@@ -1,0 +1,21 @@
+.parent{
+    width: 100%;
+    height: 60px;
+    background-color: #1cc7d0;
+}
+.myNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.myLink{
+    font-size: 25px;
+    color: white;
+}
+
+.myLink :hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.title_video { 
+    width: 100%;
+    height: auto;
+    filter: brightness(0.70);
+    scroll-behavior: smooth;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+}
+p {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color:white;
+}
+/* .titlesite{
+    color: coral;
+    font-family: 'Rubik Mono One', sans-serif;
+} */
+/* .navbar {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+} */
+.items{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header_content{
+    font-weight: bold;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: larger;
+    color:coral;
+    margin: 10rem;
+}

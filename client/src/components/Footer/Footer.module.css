@@ -1,0 +1,20 @@
+.footer{
+    width : 100%;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: #1cc7d0;
+    padding: 0 100px;
+    padding-top: 150px;
+    position: relative;
+}
+
+.iconDiv{
+
+    transform: scale(1);
+    transition: 1s ease;
+}
+.iconDiv:hover {
+    transform: scale(1.2);
+}
